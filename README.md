@@ -1,5 +1,9 @@
-# How to run it in Fusion 360
+# How to export the .drl file from Diptrace PCB Layout
+1. Select File -> Export -> N/C Drill
+2. In the dialog, press the Auto button. This causes automatic selection of tool tags for each separate hole diameter.
+3. Selaect "Export All" and save the .drl file
 
+# How to run it in Fusion 360
 1. Open Fusion 360 and go to the **UTILITIES** tab.  
 2. Click **ADD-INS** → **Scripts and Add-Ins**.  
 3. Under **Scripts**, press the **+** button to create a new **Python** script (for example, name it `ExcellonToSketch`).  
